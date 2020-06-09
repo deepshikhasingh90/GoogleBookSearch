@@ -1,13 +1,22 @@
     body{
-        background-image: url(UCPL-9.jpg);
+        background-image: url(162407.jpg);
+        max-width:880px;
+        margin:0 auto;
+       
     }
+    @media only screen and (max-width: 600px) {
+        body {
+            max-width:100%;
+        }
+      }
     nav {
-        background-color: black
+        background-color: black;
     }
 
     a {
         text-decoration: none;
-        color: white
+        color: white;
+        font-size :20px;
     }
     a:hover {
         text-decoration: underline;

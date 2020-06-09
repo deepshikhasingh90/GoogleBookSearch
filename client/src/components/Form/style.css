@@ -1,3 +1,10 @@
 #searchHeader{
-    color:white;
+    color:black;
+    margin-top:20px;
 }
+.formContainer{
+background-color: #DCDCDC;
+border-radius: 10px;
+margin-top:40px;
+}
+

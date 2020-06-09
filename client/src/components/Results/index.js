@@ -44,8 +44,8 @@ class Results extends Component {
                                                 <h5 className="card-title">{result.title} by {result.authors}</h5>
                                                 <p className="card-text">{result.description}</p>
                                                 <div>
-                                                    <a href={result.link} className="btn badge-pill btn-outline-dark mt-3" target="_blank" >View</a>
-                                                    <button onClick={() => this.handleSave(result)} className="btn badge-pill btn-outline-warning mt-3 ml-3" >
+                                                    <a href={result.link} className="btn badge-pill btn-outline-dark mt-3 buttonsBu" target="_blank" style ={{backgroundColor:"#DEB887" , color:"black"}} >View</a>
+                                                    <button onClick={() => this.handleSave(result)} className=" buttonsBu btn  badge-pill btn-outline-warning mt-3 ml-3" style ={{backgroundColor:"#2E8B57",color:"black"}}>
                                                         {this.state.savedBooks.map(book => book._id).includes(result._id) ? "Unsave" : "Save"}
                                                     </button>
                                                 </div>

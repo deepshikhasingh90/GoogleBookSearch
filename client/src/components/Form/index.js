@@ -4,7 +4,7 @@ import style from "./style.css";
 
 function Form(props){
 return (
-  <div className="container">
+  <div className="container formContainer">
   <form>
     <div className="form-group">
       <label htmlFor="search"><h2  id ="searchHeader">Search and save Books</h2></label>
